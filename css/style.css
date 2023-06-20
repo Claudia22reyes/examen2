@@ -23,11 +23,24 @@ footer{
 	color: var(--color-footer);
 	padding: 20px 0;
 }
+
 footer p{
 	margin-bottom: 5px;
 }
 footer span{
 	color: var(--color-rojo);
+}
+
+footer i.lab{
+	background-color: #000;
+	color: #535353;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center;
+	font-size: 20px;
+	text-align: start
 }
 
 #intro .intro-column {
@@ -50,4 +63,11 @@ footer span{
 #products .card .card-body {
 	text-align: start;
 	background-color: var(--color-info);
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-size: cover;
+	background-position: top center;
+	height: 50vh;
 }
