@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+	color: var(--color-blanco);
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--color-blanco:#fff;
+	--color-info:#161616;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+#intro .intro-column {
+	margin: 45px 20px;
+	background-color: var(--color-negro);
+}
+
+#products {
+	text-align: center;
+}
+
+#products .btn.btn-outline-light{
+	border-radius: 0px;
+}
+
+#products .card {
+	border: 0px;
+}
+
+#products .card .card-body {
+	text-align: start;
+	background-color: var(--color-info);
+}
